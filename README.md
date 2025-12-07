@@ -2,6 +2,8 @@ bot_oliveira
 
 projeto de bot de entretenimento
 
+link do site: https://gabriel-silira.github.io/oliveira-bot/site/index.html
+
 comandos
 
 dev: mostra o criador
