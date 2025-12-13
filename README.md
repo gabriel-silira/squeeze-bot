@@ -2,7 +2,7 @@ bot_oliveira
 
 projeto de bot de entretenimento
 
-link do site: https://gabriel-silira.github.io/oliveira-bot/site/index.html
+link do site: https://gabriel-silira.github.io/oliveira-bot/site/
 
 comandos
 
