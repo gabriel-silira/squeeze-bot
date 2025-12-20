@@ -23,7 +23,7 @@ comandos de informação
 
     dev: mostra o criador do bot
     servidores: em quantos servidores o bot está
-    desc: descrição do bot
+    info: informação aleátoria sobre o bot
     ping: devolve o ping do bot
     data: a data atual (GMT-3)
     hora: a hora atual (GMT-3)

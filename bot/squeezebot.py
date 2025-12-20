@@ -74,27 +74,27 @@ async def piadas(ctx):
 @bot.command()
 async def help(ctx):
     comandosmod = [
-        "**ban: bane um usuário (.ban @usuário 5min)**",
-        "**expulsar: expulsa um usuário (.expulsar @usuário 5min)**",
-        "**castigo: castiga um usuário (.castigo @usuário 5min)**",
+        "**ban:** bane um usuário (_.ban @usuário 5min_)",
+        "**expulsar:** expulsa um usuário (_.expulsar @usuário 5min_)",
+        "**castigo:** castiga um usuário (_.castigo @usuário 5min_)",
     ]
 
     comandosdiv = [
-        "**squeeze: uma saudação**",
-        "**moeda: tira cara ou coroa**",
-        "**d6: rola um dado de 6 lados**",
-        "**d20: rola um dado de 20 lados**",
-        "**d100: rola um dado de 100 lados**",
-        "**piadas: manda uma piada aleatória de uma lista com 501**",
+        "**squeeze:** uma saudação",
+        "**moeda:** tira cara ou coroa",
+        "**d6:** rola um dado de 6 lados",
+        "**d20:** rola um dado de 20 lados",
+        "**d100:** rola um dado de 100 lados",
+        "**piadas:** envia uma piada aleatória",
     ]
 
     comandosinfo = [
-        "**dev: mostra o criador do bot**",
-        "**servidores: em quantos servidores o bot está**",
-        "**desc: descrição do bot**",
-        "**ping: devolve o ping do bot**",
-        "**data: a data atual (GMT-3)**",
-        "**hora: a hora atual (GMT-3)**",
+        "**dev:** mostra o criador do bot",
+        "**servidores:** em quantos servidores o bot está",
+        "**info:** informação aleátoria sobre o bot",
+        "**ping:** devolve o ping do bot",
+        "**data:** a data atual (GMT-3)",
+        "**hora:** a hora atual (GMT-3)",
     ]
 
     listamod = "\n".join(f"- {c}" for c in comandosmod)

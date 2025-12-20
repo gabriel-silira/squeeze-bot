@@ -498,5 +498,6 @@ piadas_p = [
     "O que o fogo disse para a vela? Não se apague por mim.",
     "Por que o milho virou pipoca? Porque explodiu de alegria.",
     "O que o pneu disse para o carro? Estou ligado em você.",
+    "Por que o programador foi ao médico? Porque ele estava com um loop infinito de dor e não conseguia dar break."
     "Porque o livro terminou o relacionamento? Porque ele se chamava Carrascosa."
 ]
