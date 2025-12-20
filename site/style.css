@@ -19,7 +19,7 @@ a:hover {
 }
 
 .section-inicial {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/Background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(images/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,6 +98,7 @@ a:hover {
     height: 300px;
     width: 300px;
     animation: pulsar2 4s infinite;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 130, 255, 0.5);
 }
 
 .conteudo-bot {
@@ -109,12 +110,12 @@ a:hover {
 }
 
 h1 {
-    color: #139ffc;
+    color: #2aaaff;
     font-size: 48px;
 }
 
 .conteudo-bot a {
-    background-color: #139ffc;
+    background-color: #0082ff;
     color: #F5FAFF;
     font-size: 24px;
     border-radius: 16px;
@@ -134,7 +135,7 @@ h1 {
 }
 
 .conteudo-bot-desc a {
-    background-color: #139ffc;
+    background-color: #0082ff;
     color: #F5FAFF;
     font-size: 24px;
     border-radius: 16px;
@@ -143,7 +144,7 @@ h1 {
 }
 
 .section-secundaria {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.8)), url(images/Background2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/Backgroundc.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

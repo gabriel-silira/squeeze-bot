@@ -17,14 +17,14 @@ bot = commands.Bot(command_prefix=".", intents=intents, help_command=None)
 
 @bot.event
 async def on_ready():
-    print(f"Oliveira online como {bot.user}")
+    print(f"Squeeze online como {bot.user}")
 
 @bot.command()
 async def dev(ctx):
     await ctx.send("feito por SLRDev, discord: **oliveira__.**")
 
 @bot.command()
-async def oliveira(ctx):
+async def squeeze(ctx):
     await ctx.send("fala")
 
 @bot.command()
@@ -73,27 +73,52 @@ async def piadas(ctx):
 
 @bot.command()
 async def help(ctx):
-    ordem = [
-        "**dev**",
-        "**oliveira**",
-        "**ping**",
-        "**data**",
-        "**hora**",
-        "**moeda**",
-        "**d6**",
-        "**d20**",
-        "**d100**",
-        "**piadas**",
+    comandosmod = [
+        "**ban: bane um usuário (.ban @usuário 5min)**",
+        "**expulsar: expulsa um usuário (.expulsar @usuário 5min)**",
+        "**castigo: castiga um usuário (.castigo @usuário 5min)**",
     ]
 
-    lista = "\n".join(f"- {c}" for c in ordem)
+    comandosdiv = [
+        "**squeeze: uma saudação**",
+        "**moeda: tira cara ou coroa**",
+        "**d6: rola um dado de 6 lados**",
+        "**d20: rola um dado de 20 lados**",
+        "**d100: rola um dado de 100 lados**",
+        "**piadas: manda uma piada aleatória de uma lista com 501**",
+    ]
 
-    embed = discord.Embed(
-        title="Lista de Comandos",
-        description=lista,
+    comandosinfo = [
+        "**dev: mostra o criador do bot**",
+        "**servidores: em quantos servidores o bot está**",
+        "**desc: descrição do bot**",
+        "**ping: devolve o ping do bot**",
+        "**data: a data atual (GMT-3)**",
+        "**hora: a hora atual (GMT-3)**",
+    ]
+
+    listamod = "\n".join(f"- {c}" for c in comandosmod)
+    listadiv = "\n".join(f"- {c}" for c in comandosdiv)
+    listainfo = "\n".join(f"- {c}" for c in comandosinfo)
+
+    embedm = discord.Embed(
+        title='Comandos de Moderação | Prefixo = "."',
+        description=listamod,
         color=discord.Color.blue()
     )
 
-    await ctx.send(embed=embed)
+    embedd = discord.Embed(
+        title='Comandos de Diversão | Prefixo = "."',
+        description=listadiv,
+        color=discord.Color.blue()
+    )
+
+    embedi = discord.Embed(
+        title='Comandos de Informação | Prefixo = "."',
+        description=listainfo,
+        color=discord.Color.blue()
+    )
+
+    await ctx.send(embeds=[embedm, embedd, embedi])
 
 bot.run(TOKEN)
