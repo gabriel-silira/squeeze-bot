@@ -1,4 +1,4 @@
-bot_squeeze
+bot squeeze
 
 projeto de bot do discord
 
