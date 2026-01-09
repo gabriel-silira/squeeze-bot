@@ -6,24 +6,24 @@ link do site: https://gabriel-silira.github.io//squeeze-bot/site/?v=999
 
 comandos de moderação
 
-    ban: bane um usuário (.ban @usuário 5min)
-    expulsar: expulsa um usuário (.expulsar @usuário 5min)
-    castigo: castiga um usuário (.castigo @usuário 5min)
+    ban: Bane um usuário (.ban @usuário motivo)
+    kick: Expulsa um usuário (.expulsar @usuário motivo)
+    timeout: Castiga um usuário (.castigo @usuário 5 motivo)
 
 comandos de entretenimento
 
-    squeeze: uma saudação
-    moeda: tira cara ou coroa
-    d6: rola um dado de 6 lados
-    d20: rola um dado de 20 lados
-    d100: rola um dado de 100 lados
-    piadas: manda uma piada aleatória de uma lista com 501
+    squeeze: Envia uma saudação
+    moeda: Tira um cara ou coroa
+    d6: Rola um dado de 6 lados
+    d20: Rola um dado de 20 lados
+    d100: Rola um dado de 100 lados
+    piadas: Manda uma piada aleatória de uma lista com 501
 
 comandos de informação
 
-    dev: mostra o criador do bot
-    servidores: em quantos servidores o bot está
-    info: informação aleátoria sobre o bot
-    ping: devolve o ping do bot
-    data: a data atual (GMT-3)
-    hora: a hora atual (GMT-3)
+    dev: Mostra o criador do bot
+    Servidores: em quantos servidores o bot está
+    Info: informação aleátoria sobre o bot
+    ping: Devolve o ping do bot
+    data: A data atual (GMT-3)
+    hora: A hora atual (GMT-3)

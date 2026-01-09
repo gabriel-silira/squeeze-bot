@@ -97,7 +97,7 @@ a:hover {
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    animation: pulsar2 4s infinite;
+    animation: pulsar2 5s infinite;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 130, 255, 0.5);
 }
 
@@ -191,7 +191,7 @@ h1 {
 @keyframes pulsar1 {
     0% { transform: scale(1); }
     50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+    100% { transform: scale(1.2); }
 }
 
 @keyframes pulsar2 {
