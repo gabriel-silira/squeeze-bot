@@ -22,8 +22,8 @@ comandos de entretenimento
 comandos de informação
 
     dev: Mostra o criador do bot
-    Servidores: em quantos servidores o bot está
-    Info: informação aleátoria sobre o bot
+    servidores: em quantos servidores o bot está
+    info: informação aleátoria sobre o bot
     ping: Devolve o ping do bot
     data: A data atual (GMT-3)
     hora: A hora atual (GMT-3)

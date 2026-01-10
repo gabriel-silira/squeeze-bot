@@ -193,7 +193,8 @@ async def dev(interact:discord.Interaction):
 
 @bot.tree.command(description="Quantos servidores o bot está")
 async def servidores(interact:discord.Interaction):
-    ...
+    svs = len(bot.guilds)
+    await interact.response.send_message(f"Atualmente o bot está em {svs} servidores")
 
 @bot.tree.command(description="Envia uma informação aleatória sobre o bot")
 async def infos(interact:discord.Interaction):
